@@ -58,7 +58,7 @@ df_sampled = df.sample(frac=0.50, random_state=50)  # Adjust the fraction as nee
 X = df[['Sentence1', 'Sentence2']]
 y = df['Similarity']
 
-# First split: 80% training, 20% remaining (testing + validation)
+# First split: 50% training, 20% remaining (testing + validation)
 X_train, X_remaining, y_train, y_remaining = train_test_split(X, y, test_size=0.5, random_state=42)
 
 # Second split: 50% of the remaining data for validation, 50% for testing
