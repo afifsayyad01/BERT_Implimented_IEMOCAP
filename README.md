@@ -1,3 +1,3 @@
 # BERT_Implimented_IEMOCAP
 In this project BERT (Biderctional Encoder Representation from Transformers) model is implimented on the real time captured data IEMOCAP. Text data from the transcriptions had been used  in order to find out the similarity in between context of two sentences. 
-The Paired DataSet is more than of 25 MB hence provided in the link to the dataset is provided in the GoogleSheet and tracking sheet and in Google Drive Accessible folder.  
+The Paired DataSet is more than of 25 MB hence provided in the link to the dataset is provided in the GoogleSheet and tracking sheet and in Google Drive Accessible folder with the name as (new_data) and (Transcription_data_paired). The model has beesn trained on both the datasets. At first it has been trained on the Transcription_data_paired and then the data has been formetted in order to increase the accuracy of the model.
